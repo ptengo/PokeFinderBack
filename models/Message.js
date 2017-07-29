@@ -7,7 +7,8 @@ var MessageSchema   = new Schema({
       lowercase: true,
       trim: true
     },
-    message: String
+    message: String,
+    raidId: String
 });
 
 module.exports = mongoose.model('Message', MessageSchema);
