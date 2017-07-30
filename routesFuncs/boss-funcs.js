@@ -42,8 +42,9 @@ module.exports.newBoss = function newBoss(obj, cb) {
         var counters = [];
         var index = 1;
         for (var i in obj.counters) {
-          bossCounter.bosscounter = obj.counters[i].bosscounter;
+          bossCounter.bossCounter = obj.counters[i].bossCounter;
           bossCounter.types = obj.counters[i].types;
+          bossCounter.bestMoves = obj.counters[i].bestMoves;
 
           bossCounter.save(function(err, newCounter) {
             if (err)
