@@ -19,7 +19,10 @@
     "body-parser": "^1.17.2",
     "commander": "^2.11.0",
     "cors": "^2.8.4",
+    "debug": "^2.6.8",
     "express": "^4.15.3",
-    "mongoose": "^4.11.4"
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.4",
+    "request": "^2.81.0"
   }
 }

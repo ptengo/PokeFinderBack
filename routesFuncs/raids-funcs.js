@@ -1,4 +1,5 @@
 var config = require('../config');
+var l = require('debug')('pokefinder:routes:raids');
 
 var Boss = require('../models/Boss');
 var BossCounter = require('../models/BossCounter');
@@ -11,7 +12,7 @@ module.exports.newRaid = function newRaid(obj, cb) {
   var missingProps = [];
 
   if (obj.boss)
-    raid.boss = obj.boss;
+    raid.boss = obj.boss; // Will be objectId
   else
     missingProps.push('boss');
 
@@ -43,7 +44,7 @@ module.exports.getRaidList = function getRaidList(cb) {
   .exec(function(err, raids) {
     if (err)
       return cb(err);
-      
+
     cb(null, raids);
   });
 };

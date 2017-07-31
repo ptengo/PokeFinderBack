@@ -2,9 +2,12 @@ var mongoose     = require('mongoose');
 var Schema       = mongoose.Schema;
 
 var BossCounterSchema   = new Schema({
-    bosscounter: String,
+    bossCounter: String,
     types: [String],
-    bestMoves: [String],
+    bestMoves: {
+      quickMoves: [String],
+      chargeMoves: [String]
+    },
     bossId: String
 });
 

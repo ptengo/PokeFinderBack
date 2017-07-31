@@ -1,0 +1,90 @@
+
+{
+  "bosses":
+  [
+    {
+      "dificulty": 3,
+      "boss": "vaporeon",
+      "counters": [
+          {
+            "bosscounter": "Exeggutor",
+            "bestMoves": {
+                "quickMoves": ["Bullet Seed", "Confusion", "Extrasensory"],
+                "chargeMoves": ["Solar Beam", "Seed Bomb"]
+            },
+            "types": [
+                "Grass",
+                "Psychc"
+            ]
+          },
+          {
+            "bosscounter": "Venusaur",
+            "bestMoves": {
+                "quickMoves": ["Razor Leaf", "Vine Whip"],
+                "chargeMoves": ["Solar Beam", "Petal Blizzard"]
+            },
+            "types": [
+                "Grass",
+                "Poison"
+            ]
+          },
+          {
+            "bosscounter": "Vileplume",
+            "bestMoves": {
+                "quickMoves": ["Razor Leaf"],
+                "chargeMoves": ["Solar Beam", "Petal Blizzard"]
+            },
+            "types": [
+                "Grass",
+                "Poison"
+            ]
+          },
+          {
+            "bosscounter": "Victreebel",
+            "bestMoves": {
+                "quickMoves": ["Razor Leaf"],
+                "chargeMoves": ["Solar Beam"]
+            },
+            "types": [
+                "Grass",
+                "Poison"
+            ]
+          },
+          {
+            "bosscounter": "Tangela",
+            "bestMoves": {
+                "quickMoves": ["Vine Whip"],
+                "chargeMoves": ["Solar Beam", "Grass Knot"]
+            },
+            "types": [
+                "Grass"
+            ]
+          },
+          {
+            "bosscounter": "Jolteon",
+            "bestMoves": {
+                "quickMoves": ["Thunder Shock"],
+                "chargeMoves": ["Thunderbolt"]
+            },
+            "types": [
+                "Electric"
+            ]
+          },
+          {
+            "bosscounter": "Dragonite",
+            "bestMoves": {
+                "quickMoves": ["Dragon Tail", "Dragon Breath"],
+                "chargeMoves": ["Outrage", "Hurricane", "Dragon Claw"]
+            },
+            "types": [
+                "Dragon",
+                "Flying"
+            ]
+          }
+      ],
+      "types": [
+          "Aqua"
+      ]
+    }
+  ]
+}

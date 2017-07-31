@@ -1,7 +1,6 @@
 var config = require('../config');
-
+var l = require('debug')('pokefinder:routes:bosses');
 var _async = require('async');
-
 var Boss = require('../models/Boss');
 var BossCounter = require('../models/BossCounter');
 
@@ -30,7 +29,7 @@ module.exports.newBoss = function newBoss(obj, cb) {
 
   if (missingProps.length > 0) {
     l('Missing properties: %s', missingProps);
-    return res.send({message: 'Missing properties: ' + missingProps.join(', ')});
+    return cb({message: 'Missing properties: ' + missingProps.join(', ')}, null);
   }
 
 
