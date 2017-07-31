@@ -8,7 +8,8 @@ var RaidSchema   = new Schema({
     location: {
       latitude: Number,
       longitude: Number
-    }
+    },
+    expire_at: {type: Date, default: Date.now, expires: 7200}
 });
 
 module.exports = mongoose.model('Raid', RaidSchema);

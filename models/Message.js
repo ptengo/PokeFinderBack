@@ -8,7 +8,8 @@ var MessageSchema   = new Schema({
       trim: true
     },
     message: String,
-    raidId: String
+    raidId: String,
+    expire_at: {type: Date, default: Date.now, expires: 7200}
 });
 
 module.exports = mongoose.model('Message', MessageSchema);
