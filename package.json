@@ -7,6 +7,7 @@
     "start": "set DEBUG=pokefinder:* && node index.js",
     "restart": "set DEBUG=pokefinder:* && nodemon index.js",
     "mongo": "node scripts/start_mongo.js",
+    "deploy": "node scripts/start_mongo.js && set DEBUG=pokefinder:* && nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
