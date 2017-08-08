@@ -1,6 +1,6 @@
 var mongoose     = require('mongoose');
 var Schema       = mongoose.Schema;
-
+var ttl = require('mongoose-ttl');
 var RaidSchema   = new Schema({
     boss: {type: Schema.ObjectId, ref: "Boss"},
     people: Number,
@@ -9,7 +9,9 @@ var RaidSchema   = new Schema({
       latitude: Number,
       longitude: Number
     },
-    expire_at: {type: Date, default: Date.now, expires: 7200}
+    expire_at: {type: Date, default: Date.now, expires: 5}
 });
+
+RaidSchema.plugin(ttl, { ttl: 7200000, reap: false});
 
 module.exports = mongoose.model('Raid', RaidSchema);

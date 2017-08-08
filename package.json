@@ -24,6 +24,7 @@
     "express": "^4.15.3",
     "lodash": "^4.17.4",
     "mongoose": "^4.11.4",
+    "mongoose-ttl": "0.0.3",
     "request": "^2.81.0"
   }
 }
