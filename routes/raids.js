@@ -58,7 +58,6 @@ module.exports = function(router) {
     addMessageToRaid(req.params.raid_id, req.body, function(err, result) {
       if (err)
         return res.json({message: err});
-
       res.json({message: 'Message successfully added'});
     });
   });

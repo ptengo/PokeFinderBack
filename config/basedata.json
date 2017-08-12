@@ -1,13 +1,12 @@
-
 {
   "bosses":
   [
     {
       "dificulty": 3,
-      "boss": "vaporeon",
+      "boss": "Vaporeon",
       "counters": [
           {
-            "bosscounter": "Exeggutor",
+            "bossCounter": "Exeggutor",
             "bestMoves": {
                 "quickMoves": ["Bullet Seed", "Confusion", "Extrasensory"],
                 "chargeMoves": ["Solar Beam", "Seed Bomb"]
@@ -18,7 +17,7 @@
             ]
           },
           {
-            "bosscounter": "Venusaur",
+            "bossCounter": "Venusaur",
             "bestMoves": {
                 "quickMoves": ["Razor Leaf", "Vine Whip"],
                 "chargeMoves": ["Solar Beam", "Petal Blizzard"]
@@ -29,7 +28,7 @@
             ]
           },
           {
-            "bosscounter": "Vileplume",
+            "bossCounter": "Vileplume",
             "bestMoves": {
                 "quickMoves": ["Razor Leaf"],
                 "chargeMoves": ["Solar Beam", "Petal Blizzard"]
@@ -40,7 +39,7 @@
             ]
           },
           {
-            "bosscounter": "Victreebel",
+            "bossCounter": "Victreebel",
             "bestMoves": {
                 "quickMoves": ["Razor Leaf"],
                 "chargeMoves": ["Solar Beam"]
@@ -51,7 +50,7 @@
             ]
           },
           {
-            "bosscounter": "Tangela",
+            "bossCounter": "Tangela",
             "bestMoves": {
                 "quickMoves": ["Vine Whip"],
                 "chargeMoves": ["Solar Beam", "Grass Knot"]
@@ -61,7 +60,7 @@
             ]
           },
           {
-            "bosscounter": "Jolteon",
+            "bossCounter": "Jolteon",
             "bestMoves": {
                 "quickMoves": ["Thunder Shock"],
                 "chargeMoves": ["Thunderbolt"]
@@ -71,7 +70,7 @@
             ]
           },
           {
-            "bosscounter": "Dragonite",
+            "bossCounter": "Dragonite",
             "bestMoves": {
                 "quickMoves": ["Dragon Tail", "Dragon Breath"],
                 "chargeMoves": ["Outrage", "Hurricane", "Dragon Claw"]
@@ -84,6 +83,764 @@
       ],
       "types": [
           "Aqua"
+      ]
+    },
+    {
+      "dificulty": 2,
+      "boss": "Muk",
+      "counters": [
+          {
+            "bossCounter": "Rhydon",
+            "bestMoves": {
+                "quickMoves": ["Mud Slap"],
+                "chargeMoves": ["Earthquake"]
+            },
+            "types": [
+                "Ground",
+                "Rock"
+            ]
+          },
+          {
+            "bossCounter": "Golem",
+            "bestMoves": {
+                "quickMoves": ["Mud Slap", "Mud Shot"],
+                "chargeMoves": ["Earthquake"]
+            },
+            "types": [
+                "Ground",
+                "Rock"
+            ]
+          },
+          {
+            "bossCounter": "Dragonite",
+            "bestMoves": {
+                "quickMoves": ["Dragon Tail", "Dragon Breath"],
+                "chargeMoves": ["Outrage", "Hurricane", "Dragon Claw"]
+            },
+            "types": [
+                "Dragon",
+                "Flying"
+            ]
+          },
+          {
+            "bossCounter": "Espeon",
+            "bestMoves": {
+                "quickMoves": ["Confusion", "Zen Headbutt"],
+                "chargeMoves": ["Future Sight"]
+            },
+            "types": [
+                "Psychc"
+            ]
+          },
+          {
+            "bossCounter": "Alakazam",
+            "bestMoves": {
+                "quickMoves": ["Confusion", "Psycho Cut"],
+                "chargeMoves": ["Future Sight"]
+            },
+            "types": [
+                "Psychc"
+            ]
+          },
+          {
+            "bossCounter": "Gengar",
+            "bestMoves": {
+                "quickMoves": ["Shadow Claw", "Hex", "Sucker Punch"],
+                "chargeMoves": ["Shadow Ball"]
+            },
+            "types": [
+                "Ghost",
+                "Poison"
+            ]
+          },
+          {
+            "bossCounter": "Exeggutor",
+            "bestMoves": {
+                "quickMoves": ["Confusion", "Extrasensory"],
+                "chargeMoves": ["Psychic"]
+            },
+            "types": [
+                "Grass",
+                "Psychc"
+            ]
+          }
+      ],
+      "types": [
+          "Poison"
+      ]
+    },
+    {
+      "dificulty": 2,
+      "boss": "Exeggutor",
+      "counters": [
+          {
+            "bossCounter": "Scizor",
+            "bestMoves": {
+                "quickMoves": ["Fury Cutter"],
+                "chargeMoves": ["X-Scissor"]
+            },
+            "types": [
+                "Bug",
+                "Steel"
+            ]
+          },
+          {
+            "bossCounter": "Pinsir",
+            "bestMoves": {
+                "quickMoves": ["Fury Cutter", "Bug Bite"],
+                "chargeMoves": ["X-Scissor"]
+            },
+            "types": [
+                "Bug"
+            ]
+          },
+          {
+            "bossCounter": "Flareon",
+            "bestMoves": {
+                "quickMoves": ["Fire Spin"],
+                "chargeMoves": ["Overheat", "Flamethrower"]
+            },
+            "types": [
+                "Fire"
+            ]
+          },
+          {
+            "bossCounter": "Arcanine",
+            "bestMoves": {
+                "quickMoves": ["Fire Fang"],
+                "chargeMoves": ["Flamethrower"]
+            },
+            "types": [
+                "Fire"
+            ]
+          },
+          {
+            "bossCounter": "Charizard",
+            "bestMoves": {
+                "quickMoves": ["Fire Spin", "Air Slash", "Wing Attack"],
+                "chargeMoves": ["Overheat", "Flamethrower"]
+            },
+            "types": [
+                "Fire",
+                "Flying"
+            ]
+          },
+          {
+            "bossCounter": "Typhlosion",
+            "bestMoves": {
+                "quickMoves": ["Ember", "Shadow Claw"],
+                "chargeMoves": ["Overheat"]
+            },
+            "types": [
+                "Fire"
+            ]
+          },
+          {
+            "bossCounter": "Houndoom",
+            "bestMoves": {
+                "quickMoves": ["Snarl", "Fire Fang"],
+                "chargeMoves": ["Foul Play"]
+            },
+            "types": [
+                "Dark",
+                "Fire"
+            ]
+          },
+          {
+            "bossCounter": "Dragonite",
+            "bestMoves": {
+                "quickMoves": ["Dragon Tail", "Dragon Breath"],
+                "chargeMoves": ["Outrage", "Hurricane", "Dragon Claw"]
+            },
+            "types": [
+                "Dragon",
+                "Flying"
+            ]
+          },
+          {
+            "bossCounter": "Tyranitar",
+            "bestMoves": {
+                "quickMoves": ["Bite"],
+                "chargeMoves": ["Stone Edge", "Crunch"]
+            },
+            "types": [
+                "Dark",
+                "Rock"
+            ]
+          },
+          {
+            "bossCounter": "Gengar",
+            "bestMoves": {
+                "quickMoves": ["Shadow Claw", "Hex", "Sucker Punch"],
+                "chargeMoves": ["Shadow Ball", "Sludge Bomb"]
+            },
+            "types": [
+                "Ghost",
+                "Poison"
+            ]
+          }
+      ],
+      "types": [
+          "Grass",
+          "Psychc"
+      ]
+    },
+    {
+      "dificulty": 2,
+      "boss": "Weezing",
+      "counters": [
+        {
+          "bossCounter": "Rhydon",
+          "bestMoves": {
+              "quickMoves": ["Mud Slap"],
+              "chargeMoves": ["Earthquake"]
+          },
+          "types": [
+              "Ground",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Golem",
+          "bestMoves": {
+              "quickMoves": ["Mud Slap", "Mud Shot"],
+              "chargeMoves": ["Earthquake"]
+          },
+          "types": [
+              "Ground",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Dragonite",
+          "bestMoves": {
+              "quickMoves": ["Dragon Tail", "Dragon Breath"],
+              "chargeMoves": ["Outrage", "Hurricane", "Dragon Claw"]
+          },
+          "types": [
+              "Dragon",
+              "Flying"
+          ]
+        },
+        {
+          "bossCounter": "Espeon",
+          "bestMoves": {
+              "quickMoves": ["Confusion", "Zen Headbutt"],
+              "chargeMoves": ["Future Sight"]
+          },
+          "types": [
+              "Psychc"
+          ]
+        },
+        {
+          "bossCounter": "Alakazam",
+          "bestMoves": {
+              "quickMoves": ["Confusion", "Psycho Cut"],
+              "chargeMoves": ["Future Sight"]
+          },
+          "types": [
+              "Psychc"
+          ]
+        },
+        {
+          "bossCounter": "Gengar",
+          "bestMoves": {
+              "quickMoves": ["Shadow Claw", "Hex", "Sucker Punch"],
+              "chargeMoves": ["Shadow Ball"]
+          },
+          "types": [
+              "Ghost",
+              "Poison"
+          ]
+        },
+        {
+          "bossCounter": "Exeggutor",
+          "bestMoves": {
+              "quickMoves": ["Bullet Seed", "Confusion", "Extrasensory"],
+              "chargeMoves": ["Solar Beam", "Seed Bomb"]
+          },
+          "types": [
+              "Grass",
+              "Psychc"
+          ]
+        }
+      ],
+      "types": [
+          "Poison"
+      ]
+    },
+    {
+      "dificulty": 2,
+      "boss": "Electabuzz",
+      "counters": [
+        {
+          "bossCounter": "Rhydon",
+          "bestMoves": {
+              "quickMoves": ["Mud Slap"],
+              "chargeMoves": ["Earthquake"]
+          },
+          "types": [
+              "Ground",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Golem",
+          "bestMoves": {
+              "quickMoves": ["Mud Slap", "Mud Shot"],
+              "chargeMoves": ["Earthquake"]
+          },
+          "types": [
+              "Ground",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Dragonite",
+          "bestMoves": {
+              "quickMoves": ["Dragon Tail", "Dragon Breath"],
+              "chargeMoves": ["Outrage", "Hurricane", "Dragon Claw"]
+          },
+          "types": [
+              "Dragon",
+              "Flying"
+          ]
+        },
+        {
+          "bossCounter": "Exeggutor",
+          "bestMoves": {
+              "quickMoves": ["Confusion", "Extrasensory"],
+              "chargeMoves": ["Solar Beam"]
+          },
+          "types": [
+              "Grass",
+              "Psychc"
+          ]
+        },
+        {
+          "bossCounter": "Tyranitar",
+          "bestMoves": {
+              "quickMoves": ["Bite"],
+              "chargeMoves": ["Stone Edge"]
+          },
+          "types": [
+              "Dark",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Machamp",
+          "bestMoves": {
+              "quickMoves": ["Counter", "Karate Chop"],
+              "chargeMoves": ["Dynamic Punch", "Close Combat", "Cross Chop"]
+          },
+          "types": [
+              "Fight"
+          ]
+        }
+      ],
+      "types": [
+          "Electric"
+      ]
+    },
+    {
+      "dificulty": 2,
+      "boss": "Magmar",
+      "counters": [
+        {
+          "bossCounter": "Vaporeon",
+          "bestMoves": {
+              "quickMoves": ["Water Gun"],
+              "chargeMoves": ["Hydro Pump", "Aqua Tail"]
+          },
+          "types": [
+              "Water"
+          ]
+        },
+        {
+          "bossCounter": "Omastar",
+          "bestMoves": {
+              "quickMoves": ["Rock Throw", "Water Gun"],
+              "chargeMoves": ["Rock Slide", "Hydro Pump", "Rock Blast"]
+          },
+          "types": [
+              "Water",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Dragonite",
+          "bestMoves": {
+              "quickMoves": ["Dragon Tail", "Dragon Breath"],
+              "chargeMoves": ["Outrage", "Hurricane", "Dragon Claw"]
+          },
+          "types": [
+              "Dragon",
+              "Flying"
+          ]
+        },
+
+        {
+          "bossCounter": "Tyranitar",
+          "bestMoves": {
+              "quickMoves": ["Bite"],
+              "chargeMoves": ["Stone Edge"]
+          },
+          "types": [
+              "Dark",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Rhydon",
+          "bestMoves": {
+              "quickMoves": ["Mud Slap"],
+              "chargeMoves": ["Earthquake"]
+          },
+          "types": [
+              "Ground",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Golem",
+          "bestMoves": {
+              "quickMoves": ["Mud Slap", "Mud Shot"],
+              "chargeMoves": ["Earthquake"]
+          },
+          "types": [
+              "Ground",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Gyarados",
+          "bestMoves": {
+              "quickMoves": ["Bite", "Dragon Tail", "Dragon Breath"],
+              "chargeMoves": ["Hydro Pump"]
+          },
+          "types": [
+              "Water"
+          ]
+        },
+        {
+          "bossCounter": "Feraligatr",
+          "bestMoves": {
+              "quickMoves": ["Water Gun"],
+              "chargeMoves": ["Hydro Pump"]
+          },
+          "types": [
+              "Water"
+          ]
+        },
+        {
+          "bossCounter": "Kingdra",
+          "bestMoves": {
+              "quickMoves": ["Water Gun"],
+              "chargeMoves": ["Hydro Pump"]
+          },
+          "types": [
+              "Water"
+          ]
+        }
+      ],
+      "types": [
+          "Fire"
+      ]
+    },
+    {
+      "dificulty": 3,
+      "boss": "Arcanine",
+      "counters": [
+        {
+          "bossCounter": "Vaporeon",
+          "bestMoves": {
+              "quickMoves": ["Water Gun"],
+              "chargeMoves": ["Hydro Pump", "Aqua Tail"]
+          },
+          "types": [
+              "Water"
+          ]
+        },
+        {
+          "bossCounter": "Omastar",
+          "bestMoves": {
+              "quickMoves": ["Rock Throw", "Water Gun"],
+              "chargeMoves": ["Rock Slide", "Hydro Pump", "Rock Blast"]
+          },
+          "types": [
+              "Water",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Dragonite",
+          "bestMoves": {
+              "quickMoves": ["Dragon Tail", "Dragon Breath"],
+              "chargeMoves": ["Outrage", "Hurricane", "Dragon Claw"]
+          },
+          "types": [
+              "Dragon",
+              "Flying"
+          ]
+        },
+
+        {
+          "bossCounter": "Tyranitar",
+          "bestMoves": {
+              "quickMoves": ["Bite"],
+              "chargeMoves": ["Stone Edge"]
+          },
+          "types": [
+              "Dark",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Rhydon",
+          "bestMoves": {
+              "quickMoves": ["Mud Slap"],
+              "chargeMoves": ["Earthquake"]
+          },
+          "types": [
+              "Ground",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Golem",
+          "bestMoves": {
+              "quickMoves": ["Mud Slap", "Mud Shot"],
+              "chargeMoves": ["Earthquake"]
+          },
+          "types": [
+              "Ground",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Feraligatr",
+          "bestMoves": {
+              "quickMoves": ["Water Gun"],
+              "chargeMoves": ["Hydro Pump"]
+          },
+          "types": [
+              "Water"
+          ]
+        },
+        {
+          "bossCounter": "Kingdra",
+          "bestMoves": {
+              "quickMoves": ["Water Gun"],
+              "chargeMoves": ["Hydro Pump"]
+          },
+          "types": [
+              "Water"
+          ]
+        }
+      ],
+      "types": [
+          "Fire"
+      ]
+    },
+    {
+      "dificulty": 3,
+      "boss": "Alakazam",
+      "counters": [
+        {
+          "bossCounter": "Scizor",
+          "bestMoves": {
+              "quickMoves": ["Fury Cutter"],
+              "chargeMoves": ["X-Scissor"]
+          },
+          "types": [
+              "Bug",
+              "Steel"
+          ]
+        },
+        {
+          "bossCounter": "Pinsir",
+          "bestMoves": {
+              "quickMoves": ["Fury Cutter", "Bug Bite"],
+              "chargeMoves": ["X-Scissor"]
+          },
+          "types": [
+              "Bug"
+          ]
+        },
+        {
+          "bossCounter": "Houndoom",
+          "bestMoves": {
+              "quickMoves": ["Snarl"],
+              "chargeMoves": ["Foul Play"]
+          },
+          "types": [
+              "Dark",
+              "Fire"
+          ]
+        },
+        {
+          "bossCounter": "Dragonite",
+          "bestMoves": {
+              "quickMoves": ["Dragon Tail", "Dragon Breath"],
+              "chargeMoves": ["Outrage", "Hurricane", "Dragon Claw"]
+          },
+          "types": [
+              "Dragon",
+              "Flying"
+          ]
+        },
+
+        {
+          "bossCounter": "Tyranitar",
+          "bestMoves": {
+              "quickMoves": ["Bite"],
+              "chargeMoves": ["Stone Edge", "Crunch"]
+          },
+          "types": [
+              "Dark",
+              "Rock"
+          ]
+        },
+        {
+          "bossCounter": "Gyarados",
+          "bestMoves": {
+              "quickMoves": ["Bite", "Dragon Tail", "Dragon Breath"],
+              "chargeMoves": ["Crunch"]
+          },
+          "types": [
+              "Water"
+          ]
+        },
+        {
+          "bossCounter": "Snorlax",
+          "bestMoves": {
+              "quickMoves": ["Lick"],
+              "chargeMoves": ["Hyper Beam", "Body Slam"]
+          },
+          "types": [
+              "Normal"
+          ]
+        }
+      ],
+      "types": [
+          "Psychc"
+      ]
+    },
+    {
+      "dificulty": 3,
+      "boss": "Machamp",
+      "counters": [
+        {
+          "bossCounter": "Lugia",
+          "bestMoves": {
+              "quickMoves": ["Extrasensory"],
+              "chargeMoves": ["Future Sight", "Sky Attack"]
+          },
+          "types": [
+              "Flying",
+              "Psychc"
+          ]
+        },
+        {
+          "bossCounter": "Alakazam",
+          "bestMoves": {
+              "quickMoves": ["Confusion", "Psycho Cut"],
+              "chargeMoves": ["Future Sight"]
+          },
+          "types": [
+              "Psychc"
+          ]
+        },
+        {
+          "bossCounter": "Espeon",
+          "bestMoves": {
+              "quickMoves": ["Confusion", "Zen Headbutt"],
+              "chargeMoves": ["Future Sight"]
+          },
+          "types": [
+              "Psychc"
+          ]
+        },
+        {
+          "bossCounter": "Dragonite",
+          "bestMoves": {
+              "quickMoves": ["Dragon Tail", "Dragon Breath"],
+              "chargeMoves": ["Hurricane"]
+          },
+          "types": [
+              "Dragon",
+              "Flying"
+          ]
+        },
+        {
+          "bossCounter": "Exeggutor",
+          "bestMoves": {
+              "quickMoves": ["Confusion", "Extrasensory"],
+              "chargeMoves": ["Solar Beam", "Psychic"]
+          },
+          "types": [
+              "Grass",
+              "Psychc"
+          ]
+        },
+        {
+          "bossCounter": "Charizard",
+          "bestMoves": {
+              "quickMoves": ["Air Slash", "Wing Attack"],
+              "chargeMoves": ["Overheat", "Flamethrower"]
+          },
+          "types": [
+              "Fire",
+              "Flying"
+          ]
+        },
+        {
+          "bossCounter": "Gyarados",
+          "bestMoves": {
+              "quickMoves": ["Bite", "Dragon Tail", "Dragon Breath"],
+              "chargeMoves": ["Hydro Pump"]
+          },
+          "types": [
+              "Water"
+          ]
+        },
+        {
+          "bossCounter": "Gengar",
+          "bestMoves": {
+              "quickMoves": ["Shadow Claw", "Hex"],
+              "chargeMoves": ["Shadow Ball", "Sludge Bomb"]
+          },
+          "types": [
+              "Ghost",
+              "Poison"
+          ]
+        },
+        {
+          "bossCounter": "Slowbro",
+          "bestMoves": {
+              "quickMoves": ["Confusion"],
+              "chargeMoves": ["Psychic"]
+          },
+          "types": [
+              "Psychc",
+              "Water"
+          ]
+        },
+        {
+          "bossCounter": "Slowking",
+          "bestMoves": {
+              "quickMoves": ["Confusion"],
+              "chargeMoves": ["Psychic"]
+          },
+          "types": [
+              "Psychc",
+              "Water"
+          ]
+        }
+      ],
+      "types": [
+          "Fight"
       ]
     }
   ]

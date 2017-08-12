@@ -1,4 +1,3 @@
-var config = require('../config');
 var l = require('debug')('pokefinder:routes:raids');
 
 var Boss = require('../models/Boss');
@@ -89,11 +88,9 @@ module.exports.addMessageToRaid = function addMessageToRaid(rid, obj, cb) {
       message.user = obj.user;
       message.raidId = rid;
 
-      console.log(obj);
       message.save(function(err, newMessage) {
         if (err)
           return cb(err);
-        console.log(newMessage);
         Raid.update(
           {_id: rid},
           {$push: {messages: newMessage.id}},

@@ -13,12 +13,12 @@ var resolve = function resolve(str) {
   });
 };
 
-var mongoRoute = resolve('%ProgramFiles%\\MongoDB\\Server\\3.4\\bin\\mongo.exe');
+/*var mongoRoute = resolve('%ProgramFiles%\\MongoDB\\Server\\3.4\\bin\\mongo.exe');
 
 console.log('Clearing database...');
 var prc = spawn(mongoRoute,  ['pokefinder', '--eval', 'db.dropDatabase()']);
-
-prc.on('close', function(){
+*/
+//prc.on('close', function(){
 
   console.log('Done. Loading Bosses...')
   var json = JSON.parse(fs.readFileSync(sourceFile, 'utf8'));
@@ -73,4 +73,4 @@ prc.on('close', function(){
       console.log('Done creating raids');
     });
   });
-});
+//});

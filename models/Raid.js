@@ -8,10 +8,14 @@ var RaidSchema   = new Schema({
     location: {
       latitude: Number,
       longitude: Number
-    },
-    expire_at: {type: Date, default: Date.now, expires: 5}
+    }
 });
 
-RaidSchema.plugin(ttl, { ttl: 7200000, reap: false});
+RaidSchema.pre('remove', function(next) {
+  console.log('pre');
+  this.model('Message').remove({ raidId: this._id }, next);
+});
+// change to 7200000 2h
+RaidSchema.plugin(ttl, { ttl: 15000, reap: false});
 
 module.exports = mongoose.model('Raid', RaidSchema);

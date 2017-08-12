@@ -13,7 +13,8 @@ var cors = require("cors");
 
 var mongoose   = require('mongoose');
 l('Connecting to mongo...');
-mongoose.connect('mongodb://' + config.mongodb.address + '/pokefinder');
+// mongoose.connect('mongodb://' + config.mongodb.address + '/pokefinder');
+mongoose.connect('mongodb://admin:BezoyaBuena118@ds039261.mlab.com:39261/pokefinder');
 l('Connected.')
 
 // configure app to use bodyParser()
@@ -30,8 +31,9 @@ var router = express.Router();              // get an instance of the express Ro
 // REGISTER OUR ROUTES -------------------------------
 require ('./routes/boss') (router);
 require ('./routes/raids') (router);
+// Just for testing
+require ('./routes/messages') (router);
 //require ('./routes/bossCounters') (router);
-//require ('./routes/messages') (router);
 
 app.use('/', router);
 

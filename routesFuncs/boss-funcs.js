@@ -1,4 +1,3 @@
-var config = require('../config');
 var l = require('debug')('pokefinder:routes:bosses');
 var _async = require('async');
 var Boss = require('../models/Boss');
@@ -34,13 +33,14 @@ module.exports.newBoss = function newBoss(obj, cb) {
 
 
   if (obj.counters) {
-    var bossCounter = new BossCounter();
+    var bossCounter;
 
     _async.waterfall([
       function(callback) {
         var counters = [];
         var index = 1;
         for (var i in obj.counters) {
+          bossCounter = new BossCounter();
           bossCounter.bossCounter = obj.counters[i].bossCounter;
           bossCounter.types = obj.counters[i].types;
           bossCounter.bestMoves = obj.counters[i].bestMoves;
