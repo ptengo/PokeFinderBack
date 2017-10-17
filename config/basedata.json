@@ -2,7 +2,7 @@
   "bosses":
   [
     {
-      "dificulty": 3,
+      "difficulty": 3,
       "boss": "Vaporeon",
       "counters": [
           {
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "dificulty": 2,
+      "difficulty": 2,
       "boss": "Muk",
       "counters": [
           {
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "dificulty": 2,
+      "difficulty": 2,
       "boss": "Exeggutor",
       "counters": [
           {
@@ -286,7 +286,7 @@
       ]
     },
     {
-      "dificulty": 2,
+      "difficulty": 2,
       "boss": "Weezing",
       "counters": [
         {
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "dificulty": 2,
+      "difficulty": 2,
       "boss": "Electabuzz",
       "counters": [
         {
@@ -444,7 +444,7 @@
       ]
     },
     {
-      "dificulty": 2,
+      "difficulty": 2,
       "boss": "Magmar",
       "counters": [
         {
@@ -549,7 +549,7 @@
       ]
     },
     {
-      "dificulty": 3,
+      "difficulty": 3,
       "boss": "Arcanine",
       "counters": [
         {
@@ -644,7 +644,7 @@
       ]
     },
     {
-      "dificulty": 3,
+      "difficulty": 3,
       "boss": "Alakazam",
       "counters": [
         {
@@ -728,7 +728,7 @@
       ]
     },
     {
-      "dificulty": 3,
+      "difficulty": 3,
       "boss": "Machamp",
       "counters": [
         {

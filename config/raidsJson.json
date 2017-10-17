@@ -1,16 +1,72 @@
 [
     {
-        "_id": "598f14422774e24a804f77bd",
-        "__ttl": "2017-08-12T14:44:33.995Z",
-        "people": 0,
+        "_id": "599750fe82732549482f5e12",
+        "__ttl": "2017-08-18T22:41:34.971Z",
+        "people": 1,
         "boss": {
-            "_id": "598f14422774e24a804f776d",
+            "_id": "599750fe82732549482f5dc2",
             "dificulty": 3,
             "boss": "Vaporeon",
             "__v": 0,
             "counters": [
                 {
-                    "_id": "598f14422774e24a804f776e",
+                    "_id": "599750fe82732549482f5dc6",
+                    "bossCounter": "Victreebel",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Solar Beam"
+                        ],
+                        "quickMoves": [
+                            "Razor Leaf"
+                        ]
+                    },
+                    "types": [
+                        "Grass",
+                        "Poison"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dc9",
+                    "bossCounter": "Dragonite",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Outrage",
+                            "Hurricane",
+                            "Dragon Claw"
+                        ],
+                        "quickMoves": [
+                            "Dragon Tail",
+                            "Dragon Breath"
+                        ]
+                    },
+                    "types": [
+                        "Dragon",
+                        "Flying"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dc4",
+                    "bossCounter": "Venusaur",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Solar Beam",
+                            "Petal Blizzard"
+                        ],
+                        "quickMoves": [
+                            "Razor Leaf",
+                            "Vine Whip"
+                        ]
+                    },
+                    "types": [
+                        "Grass",
+                        "Poison"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dc3",
                     "bossCounter": "Exeggutor",
                     "__v": 0,
                     "bestMoves": {
@@ -30,63 +86,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f776f",
-                    "bossCounter": "Venusaur",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Solar Beam",
-                            "Petal Blizzard"
-                        ],
-                        "quickMoves": [
-                            "Razor Leaf",
-                            "Vine Whip"
-                        ]
-                    },
-                    "types": [
-                        "Grass",
-                        "Poison"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7772",
-                    "bossCounter": "Tangela",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Solar Beam",
-                            "Grass Knot"
-                        ],
-                        "quickMoves": [
-                            "Vine Whip"
-                        ]
-                    },
-                    "types": [
-                        "Grass"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7774",
-                    "bossCounter": "Dragonite",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Outrage",
-                            "Hurricane",
-                            "Dragon Claw"
-                        ],
-                        "quickMoves": [
-                            "Dragon Tail",
-                            "Dragon Breath"
-                        ]
-                    },
-                    "types": [
-                        "Dragon",
-                        "Flying"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7770",
+                    "_id": "599750fe82732549482f5dc5",
                     "bossCounter": "Vileplume",
                     "__v": 0,
                     "bestMoves": {
@@ -104,7 +104,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7773",
+                    "_id": "599750fe82732549482f5dc8",
                     "bossCounter": "Jolteon",
                     "__v": 0,
                     "bestMoves": {
@@ -120,20 +120,20 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7771",
-                    "bossCounter": "Victreebel",
+                    "_id": "599750fe82732549482f5dc7",
+                    "bossCounter": "Tangela",
                     "__v": 0,
                     "bestMoves": {
                         "chargeMoves": [
-                            "Solar Beam"
+                            "Solar Beam",
+                            "Grass Knot"
                         ],
                         "quickMoves": [
-                            "Razor Leaf"
+                            "Vine Whip"
                         ]
                     },
                     "types": [
-                        "Grass",
-                        "Poison"
+                        "Grass"
                     ]
                 }
             ],
@@ -146,20 +146,91 @@
             "latitude": 20,
             "longitude": 20
         },
-        "messages": []
+        "messages": [
+            {
+                "_id": "599750fe82732549482f5e1c",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e46",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e21",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "ad",
+                "message": "Ullamco eu cupidatat duis duis duis quis elit ea proident esse do et duis et. Velit in voluptate duis occaecat ex excepteur ad tempor. Ullamco qui sint commodo ipsum ad id excepteur in ea deserunt Lorem id laborum cupidatat. Fugiat sunt quis fugiat reprehenderit incididunt in ipsum. Ea consequat duis anim tempor dolor velit.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e38",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "ipsum",
+                "message": "Ex magna mollit id ut est qui. Ex ut sint quis ut anim sit pariatur qui duis sint excepteur do cillum. Aute sit nulla nulla incididunt do sunt Lorem duis quis et pariatur irure labore. Lorem Lorem tempor aute ad ex deserunt.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e3b",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "ipsum",
+                "message": "Ex magna mollit id ut est qui. Ex ut sint quis ut anim sit pariatur qui duis sint excepteur do cillum. Aute sit nulla nulla incididunt do sunt Lorem duis quis et pariatur irure labore. Lorem Lorem tempor aute ad ex deserunt.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e39",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e1b",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e49",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e20",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e2a",
+                "raidId": "599750fe82732549482f5e12",
+                "user": "ad",
+                "message": "Ullamco eu cupidatat duis duis duis quis elit ea proident esse do et duis et. Velit in voluptate duis occaecat ex excepteur ad tempor. Ullamco qui sint commodo ipsum ad id excepteur in ea deserunt Lorem id laborum cupidatat. Fugiat sunt quis fugiat reprehenderit incididunt in ipsum. Ea consequat duis anim tempor dolor velit.\r\n",
+                "__v": 0
+            }
+        ]
     },
     {
-        "_id": "598f14432774e24a804f77be",
-        "__ttl": "2017-08-12T14:44:34.014Z",
-        "people": 0,
+        "_id": "599750fe82732549482f5e13",
+        "__ttl": "2017-08-18T22:41:34.967Z",
+        "people": 1,
         "boss": {
-            "_id": "598f14422774e24a804f7775",
+            "_id": "599750fe82732549482f5dca",
             "dificulty": 2,
             "boss": "Muk",
             "__v": 0,
             "counters": [
                 {
-                    "_id": "598f14422774e24a804f7776",
+                    "_id": "599750fe82732549482f5dcb",
                     "bossCounter": "Rhydon",
                     "__v": 0,
                     "bestMoves": {
@@ -176,80 +247,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7778",
-                    "bossCounter": "Dragonite",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Outrage",
-                            "Hurricane",
-                            "Dragon Claw"
-                        ],
-                        "quickMoves": [
-                            "Dragon Tail",
-                            "Dragon Breath"
-                        ]
-                    },
-                    "types": [
-                        "Dragon",
-                        "Flying"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7777",
-                    "bossCounter": "Golem",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Earthquake"
-                        ],
-                        "quickMoves": [
-                            "Mud Slap",
-                            "Mud Shot"
-                        ]
-                    },
-                    "types": [
-                        "Ground",
-                        "Rock"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7779",
-                    "bossCounter": "Espeon",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Future Sight"
-                        ],
-                        "quickMoves": [
-                            "Confusion",
-                            "Zen Headbutt"
-                        ]
-                    },
-                    "types": [
-                        "Psychc"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f777c",
-                    "bossCounter": "Exeggutor",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Psychic"
-                        ],
-                        "quickMoves": [
-                            "Confusion",
-                            "Extrasensory"
-                        ]
-                    },
-                    "types": [
-                        "Grass",
-                        "Psychc"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f777b",
+                    "_id": "599750fe82732549482f5dd0",
                     "bossCounter": "Gengar",
                     "__v": 0,
                     "bestMoves": {
@@ -268,7 +266,80 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f777a",
+                    "_id": "599750fe82732549482f5dcc",
+                    "bossCounter": "Golem",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Earthquake"
+                        ],
+                        "quickMoves": [
+                            "Mud Slap",
+                            "Mud Shot"
+                        ]
+                    },
+                    "types": [
+                        "Ground",
+                        "Rock"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dd1",
+                    "bossCounter": "Exeggutor",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Psychic"
+                        ],
+                        "quickMoves": [
+                            "Confusion",
+                            "Extrasensory"
+                        ]
+                    },
+                    "types": [
+                        "Grass",
+                        "Psychc"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dcd",
+                    "bossCounter": "Dragonite",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Outrage",
+                            "Hurricane",
+                            "Dragon Claw"
+                        ],
+                        "quickMoves": [
+                            "Dragon Tail",
+                            "Dragon Breath"
+                        ]
+                    },
+                    "types": [
+                        "Dragon",
+                        "Flying"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dce",
+                    "bossCounter": "Espeon",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Future Sight"
+                        ],
+                        "quickMoves": [
+                            "Confusion",
+                            "Zen Headbutt"
+                        ]
+                    },
+                    "types": [
+                        "Psychc"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dcf",
                     "bossCounter": "Alakazam",
                     "__v": 0,
                     "bestMoves": {
@@ -294,54 +365,91 @@
             "latitude": 20,
             "longitude": 20
         },
-        "messages": []
+        "messages": [
+            {
+                "_id": "599750fe82732549482f5e2b",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e3c",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e24",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "ea",
+                "message": "Enim ullamco reprehenderit deserunt magna occaecat commodo velit sunt nulla tempor et irure nulla. Fugiat fugiat aliqua eu sint irure ea velit. Consectetur veniam incididunt nisi eu eiusmod nostrud.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e2c",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e48",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e22",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e2d",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "cillum",
+                "message": "Consectetur voluptate minim Lorem nisi excepteur irure ullamco et sunt aliqua anim. Laborum dolor esse do incididunt laboris exercitation qui velit laboris in. Labore esse et ullamco dolor culpa nisi aliquip proident cupidatat esse in do.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e23",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e3a",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "sunt",
+                "message": "Culpa anim duis esse cupidatat in ea adipisicing elit occaecat voluptate qui eiusmod pariatur mollit. Duis mollit mollit nisi exercitation veniam fugiat aliquip laborum cillum eiusmod aute ad nostrud dolore. Cupidatat occaecat ad velit id ex reprehenderit elit tempor nisi quis occaecat in nostrud eiusmod. Eiusmod commodo enim aliquip ad exercitation ipsum culpa anim anim do Lorem. Mollit adipisicing do laboris velit. Exercitation deserunt deserunt eiusmod dolore cillum irure aute cupidatat anim ad. Occaecat ullamco deserunt laborum nisi dolore sint culpa ullamco laboris consectetur eiusmod.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e47",
+                "raidId": "599750fe82732549482f5e13",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            }
+        ]
     },
     {
-        "_id": "598f14432774e24a804f77bf",
-        "__ttl": "2017-08-12T14:44:34.018Z",
-        "people": 0,
+        "_id": "599750fe82732549482f5e14",
+        "__ttl": "2017-08-18T22:41:34.958Z",
+        "people": 1,
         "boss": {
-            "_id": "598f14422774e24a804f777d",
+            "_id": "599750fe82732549482f5dd2",
             "dificulty": 2,
             "boss": "Exeggutor",
             "__v": 0,
             "counters": [
                 {
-                    "_id": "598f14422774e24a804f777e",
-                    "bossCounter": "Scizor",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "X-Scissor"
-                        ],
-                        "quickMoves": [
-                            "Fury Cutter"
-                        ]
-                    },
-                    "types": [
-                        "Bug",
-                        "Steel"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7783",
-                    "bossCounter": "Typhlosion",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Overheat"
-                        ],
-                        "quickMoves": [
-                            "Ember",
-                            "Shadow Claw"
-                        ]
-                    },
-                    "types": [
-                        "Fire"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f777f",
+                    "_id": "599750fe82732549482f5dd4",
                     "bossCounter": "Pinsir",
                     "__v": 0,
                     "bestMoves": {
@@ -358,76 +466,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7784",
-                    "bossCounter": "Houndoom",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Foul Play"
-                        ],
-                        "quickMoves": [
-                            "Snarl",
-                            "Fire Fang"
-                        ]
-                    },
-                    "types": [
-                        "Dark",
-                        "Fire"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7780",
-                    "bossCounter": "Flareon",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Overheat",
-                            "Flamethrower"
-                        ],
-                        "quickMoves": [
-                            "Fire Spin"
-                        ]
-                    },
-                    "types": [
-                        "Fire"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7786",
-                    "bossCounter": "Tyranitar",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Stone Edge",
-                            "Crunch"
-                        ],
-                        "quickMoves": [
-                            "Bite"
-                        ]
-                    },
-                    "types": [
-                        "Dark",
-                        "Rock"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7781",
-                    "bossCounter": "Arcanine",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Flamethrower"
-                        ],
-                        "quickMoves": [
-                            "Fire Fang"
-                        ]
-                    },
-                    "types": [
-                        "Fire"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7785",
+                    "_id": "599750fe82732549482f5dda",
                     "bossCounter": "Dragonite",
                     "__v": 0,
                     "bestMoves": {
@@ -447,7 +486,78 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7782",
+                    "_id": "599750fe82732549482f5dd5",
+                    "bossCounter": "Flareon",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Overheat",
+                            "Flamethrower"
+                        ],
+                        "quickMoves": [
+                            "Fire Spin"
+                        ]
+                    },
+                    "types": [
+                        "Fire"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5ddc",
+                    "bossCounter": "Gengar",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Shadow Ball",
+                            "Sludge Bomb"
+                        ],
+                        "quickMoves": [
+                            "Shadow Claw",
+                            "Hex",
+                            "Sucker Punch"
+                        ]
+                    },
+                    "types": [
+                        "Ghost",
+                        "Poison"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dd6",
+                    "bossCounter": "Arcanine",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Flamethrower"
+                        ],
+                        "quickMoves": [
+                            "Fire Fang"
+                        ]
+                    },
+                    "types": [
+                        "Fire"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5ddb",
+                    "bossCounter": "Tyranitar",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Stone Edge",
+                            "Crunch"
+                        ],
+                        "quickMoves": [
+                            "Bite"
+                        ]
+                    },
+                    "types": [
+                        "Dark",
+                        "Rock"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dd7",
                     "bossCounter": "Charizard",
                     "__v": 0,
                     "bestMoves": {
@@ -467,23 +577,55 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7787",
-                    "bossCounter": "Gengar",
+                    "_id": "599750fe82732549482f5dd9",
+                    "bossCounter": "Houndoom",
                     "__v": 0,
                     "bestMoves": {
                         "chargeMoves": [
-                            "Shadow Ball",
-                            "Sludge Bomb"
+                            "Foul Play"
                         ],
                         "quickMoves": [
-                            "Shadow Claw",
-                            "Hex",
-                            "Sucker Punch"
+                            "Snarl",
+                            "Fire Fang"
                         ]
                     },
                     "types": [
-                        "Ghost",
-                        "Poison"
+                        "Dark",
+                        "Fire"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dd3",
+                    "bossCounter": "Scizor",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "X-Scissor"
+                        ],
+                        "quickMoves": [
+                            "Fury Cutter"
+                        ]
+                    },
+                    "types": [
+                        "Bug",
+                        "Steel"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dd8",
+                    "bossCounter": "Typhlosion",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Overheat"
+                        ],
+                        "quickMoves": [
+                            "Ember",
+                            "Shadow Claw"
+                        ]
+                    },
+                    "types": [
+                        "Fire"
                     ]
                 }
             ],
@@ -497,20 +639,91 @@
             "latitude": 20,
             "longitude": 20
         },
-        "messages": []
+        "messages": [
+            {
+                "_id": "599750fe82732549482f5e1d",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e2e",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "ea",
+                "message": "Enim ullamco reprehenderit deserunt magna occaecat commodo velit sunt nulla tempor et irure nulla. Fugiat fugiat aliqua eu sint irure ea velit. Consectetur veniam incididunt nisi eu eiusmod nostrud.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e36",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "ea",
+                "message": "Enim ullamco reprehenderit deserunt magna occaecat commodo velit sunt nulla tempor et irure nulla. Fugiat fugiat aliqua eu sint irure ea velit. Consectetur veniam incididunt nisi eu eiusmod nostrud.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e2f",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e1e",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "cillum",
+                "message": "Consectetur voluptate minim Lorem nisi excepteur irure ullamco et sunt aliqua anim. Laborum dolor esse do incididunt laboris exercitation qui velit laboris in. Labore esse et ullamco dolor culpa nisi aliquip proident cupidatat esse in do.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e30",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "ipsum",
+                "message": "Ex magna mollit id ut est qui. Ex ut sint quis ut anim sit pariatur qui duis sint excepteur do cillum. Aute sit nulla nulla incididunt do sunt Lorem duis quis et pariatur irure labore. Lorem Lorem tempor aute ad ex deserunt.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e3d",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e25",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "sunt",
+                "message": "Culpa anim duis esse cupidatat in ea adipisicing elit occaecat voluptate qui eiusmod pariatur mollit. Duis mollit mollit nisi exercitation veniam fugiat aliquip laborum cillum eiusmod aute ad nostrud dolore. Cupidatat occaecat ad velit id ex reprehenderit elit tempor nisi quis occaecat in nostrud eiusmod. Eiusmod commodo enim aliquip ad exercitation ipsum culpa anim anim do Lorem. Mollit adipisicing do laboris velit. Exercitation deserunt deserunt eiusmod dolore cillum irure aute cupidatat anim ad. Occaecat ullamco deserunt laborum nisi dolore sint culpa ullamco laboris consectetur eiusmod.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e3e",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e4a",
+                "raidId": "599750fe82732549482f5e14",
+                "user": "cillum",
+                "message": "Consectetur voluptate minim Lorem nisi excepteur irure ullamco et sunt aliqua anim. Laborum dolor esse do incididunt laboris exercitation qui velit laboris in. Labore esse et ullamco dolor culpa nisi aliquip proident cupidatat esse in do.\r\n",
+                "__v": 0
+            }
+        ]
     },
     {
-        "_id": "598f14432774e24a804f77c0",
-        "__ttl": "2017-08-12T14:44:34.022Z",
-        "people": 0,
+        "_id": "599750fe82732549482f5e15",
+        "__ttl": "2017-08-18T22:41:35.059Z",
+        "people": 1,
         "boss": {
-            "_id": "598f14422774e24a804f7788",
+            "_id": "599750fe82732549482f5ddd",
             "dificulty": 2,
             "boss": "Weezing",
             "__v": 0,
             "counters": [
                 {
-                    "_id": "598f14422774e24a804f7789",
+                    "_id": "599750fe82732549482f5dde",
                     "bossCounter": "Rhydon",
                     "__v": 0,
                     "bestMoves": {
@@ -527,7 +740,44 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f778b",
+                    "_id": "599750fe82732549482f5de3",
+                    "bossCounter": "Gengar",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Shadow Ball"
+                        ],
+                        "quickMoves": [
+                            "Shadow Claw",
+                            "Hex",
+                            "Sucker Punch"
+                        ]
+                    },
+                    "types": [
+                        "Ghost",
+                        "Poison"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5ddf",
+                    "bossCounter": "Golem",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Earthquake"
+                        ],
+                        "quickMoves": [
+                            "Mud Slap",
+                            "Mud Shot"
+                        ]
+                    },
+                    "types": [
+                        "Ground",
+                        "Rock"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5de0",
                     "bossCounter": "Dragonite",
                     "__v": 0,
                     "bestMoves": {
@@ -547,7 +797,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f778f",
+                    "_id": "599750fe82732549482f5de4",
                     "bossCounter": "Exeggutor",
                     "__v": 0,
                     "bestMoves": {
@@ -567,26 +817,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f778e",
-                    "bossCounter": "Gengar",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Shadow Ball"
-                        ],
-                        "quickMoves": [
-                            "Shadow Claw",
-                            "Hex",
-                            "Sucker Punch"
-                        ]
-                    },
-                    "types": [
-                        "Ghost",
-                        "Poison"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f778c",
+                    "_id": "599750fe82732549482f5de1",
                     "bossCounter": "Espeon",
                     "__v": 0,
                     "bestMoves": {
@@ -603,7 +834,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f778d",
+                    "_id": "599750fe82732549482f5de2",
                     "bossCounter": "Alakazam",
                     "__v": 0,
                     "bestMoves": {
@@ -618,24 +849,6 @@
                     "types": [
                         "Psychc"
                     ]
-                },
-                {
-                    "_id": "598f14422774e24a804f778a",
-                    "bossCounter": "Golem",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Earthquake"
-                        ],
-                        "quickMoves": [
-                            "Mud Slap",
-                            "Mud Shot"
-                        ]
-                    },
-                    "types": [
-                        "Ground",
-                        "Rock"
-                    ]
                 }
             ],
             "types": [
@@ -647,38 +860,91 @@
             "latitude": 20,
             "longitude": 20
         },
-        "messages": []
+        "messages": [
+            {
+                "_id": "599750fe82732549482f5e1f",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "ea",
+                "message": "Enim ullamco reprehenderit deserunt magna occaecat commodo velit sunt nulla tempor et irure nulla. Fugiat fugiat aliqua eu sint irure ea velit. Consectetur veniam incididunt nisi eu eiusmod nostrud.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e27",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e40",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "cillum",
+                "message": "Consectetur voluptate minim Lorem nisi excepteur irure ullamco et sunt aliqua anim. Laborum dolor esse do incididunt laboris exercitation qui velit laboris in. Labore esse et ullamco dolor culpa nisi aliquip proident cupidatat esse in do.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e26",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e32",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "ad",
+                "message": "Ullamco eu cupidatat duis duis duis quis elit ea proident esse do et duis et. Velit in voluptate duis occaecat ex excepteur ad tempor. Ullamco qui sint commodo ipsum ad id excepteur in ea deserunt Lorem id laborum cupidatat. Fugiat sunt quis fugiat reprehenderit incididunt in ipsum. Ea consequat duis anim tempor dolor velit.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e28",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e33",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e5c",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e31",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e4b",
+                "raidId": "599750fe82732549482f5e15",
+                "user": "ipsum",
+                "message": "Ex magna mollit id ut est qui. Ex ut sint quis ut anim sit pariatur qui duis sint excepteur do cillum. Aute sit nulla nulla incididunt do sunt Lorem duis quis et pariatur irure labore. Lorem Lorem tempor aute ad ex deserunt.\r\n",
+                "__v": 0
+            }
+        ]
     },
     {
-        "_id": "598f14432774e24a804f77c1",
-        "__ttl": "2017-08-12T14:44:34.026Z",
-        "people": 0,
+        "_id": "599750fe82732549482f5e16",
+        "__ttl": "2017-08-18T22:41:35.060Z",
+        "people": 1,
         "boss": {
-            "_id": "598f14422774e24a804f7790",
+            "_id": "599750fe82732549482f5de5",
             "dificulty": 2,
             "boss": "Electabuzz",
             "__v": 0,
             "counters": [
                 {
-                    "_id": "598f14422774e24a804f7792",
-                    "bossCounter": "Golem",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Earthquake"
-                        ],
-                        "quickMoves": [
-                            "Mud Slap",
-                            "Mud Shot"
-                        ]
-                    },
-                    "types": [
-                        "Ground",
-                        "Rock"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7791",
+                    "_id": "599750fe82732549482f5de6",
                     "bossCounter": "Rhydon",
                     "__v": 0,
                     "bestMoves": {
@@ -695,26 +961,25 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7796",
-                    "bossCounter": "Machamp",
+                    "_id": "599750fe82732549482f5de7",
+                    "bossCounter": "Golem",
                     "__v": 0,
                     "bestMoves": {
                         "chargeMoves": [
-                            "Dynamic Punch",
-                            "Close Combat",
-                            "Cross Chop"
+                            "Earthquake"
                         ],
                         "quickMoves": [
-                            "Counter",
-                            "Karate Chop"
+                            "Mud Slap",
+                            "Mud Shot"
                         ]
                     },
                     "types": [
-                        "Fight"
+                        "Ground",
+                        "Rock"
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7793",
+                    "_id": "599750fe82732549482f5de8",
                     "bossCounter": "Dragonite",
                     "__v": 0,
                     "bestMoves": {
@@ -734,7 +999,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7794",
+                    "_id": "599750fe82732549482f5de9",
                     "bossCounter": "Exeggutor",
                     "__v": 0,
                     "bestMoves": {
@@ -752,7 +1017,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f7795",
+                    "_id": "599750fe82732549482f5dea",
                     "bossCounter": "Tyranitar",
                     "__v": 0,
                     "bestMoves": {
@@ -767,6 +1032,25 @@
                         "Dark",
                         "Rock"
                     ]
+                },
+                {
+                    "_id": "599750fe82732549482f5deb",
+                    "bossCounter": "Machamp",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Dynamic Punch",
+                            "Close Combat",
+                            "Cross Chop"
+                        ],
+                        "quickMoves": [
+                            "Counter",
+                            "Karate Chop"
+                        ]
+                    },
+                    "types": [
+                        "Fight"
+                    ]
                 }
             ],
             "types": [
@@ -778,40 +1062,91 @@
             "latitude": 20,
             "longitude": 20
         },
-        "messages": []
+        "messages": [
+            {
+                "_id": "599750fe82732549482f5e3f",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e29",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e37",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e41",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e34",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e42",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e4c",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "minim",
+                "message": "Aute sint reprehenderit fugiat sunt minim esse do mollit velit. Cupidatat dolore commodo nulla qui sint voluptate nostrud proident adipisicing dolore et. Consequat est est ad in sint veniam irure magna sunt nisi aute. Enim enim ad enim dolor ex fugiat incididunt. Amet ad laborum veniam culpa esse enim tempor est ex amet. Mollit eiusmod dolor dolor veniam mollit id. Deserunt aliquip reprehenderit laboris pariatur est eu Lorem elit mollit cillum ipsum laboris dolore.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e5d",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e5e",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "ad",
+                "message": "Ullamco eu cupidatat duis duis duis quis elit ea proident esse do et duis et. Velit in voluptate duis occaecat ex excepteur ad tempor. Ullamco qui sint commodo ipsum ad id excepteur in ea deserunt Lorem id laborum cupidatat. Fugiat sunt quis fugiat reprehenderit incididunt in ipsum. Ea consequat duis anim tempor dolor velit.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e35",
+                "raidId": "599750fe82732549482f5e16",
+                "user": "ad",
+                "message": "Ullamco eu cupidatat duis duis duis quis elit ea proident esse do et duis et. Velit in voluptate duis occaecat ex excepteur ad tempor. Ullamco qui sint commodo ipsum ad id excepteur in ea deserunt Lorem id laborum cupidatat. Fugiat sunt quis fugiat reprehenderit incididunt in ipsum. Ea consequat duis anim tempor dolor velit.\r\n",
+                "__v": 0
+            }
+        ]
     },
     {
-        "_id": "598f14432774e24a804f77c2",
-        "__ttl": "2017-08-12T14:44:34.030Z",
-        "people": 0,
+        "_id": "599750fe82732549482f5e17",
+        "__ttl": "2017-08-18T22:41:35.070Z",
+        "people": 1,
         "boss": {
-            "_id": "598f14422774e24a804f7797",
+            "_id": "599750fe82732549482f5dec",
             "dificulty": 2,
             "boss": "Magmar",
             "__v": 0,
             "counters": [
                 {
-                    "_id": "598f14422774e24a804f7799",
-                    "bossCounter": "Omastar",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Rock Slide",
-                            "Hydro Pump",
-                            "Rock Blast"
-                        ],
-                        "quickMoves": [
-                            "Rock Throw",
-                            "Water Gun"
-                        ]
-                    },
-                    "types": [
-                        "Water",
-                        "Rock"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f7798",
+                    "_id": "599750fe82732549482f5ded",
                     "bossCounter": "Vaporeon",
                     "__v": 0,
                     "bestMoves": {
@@ -828,7 +1163,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f779d",
+                    "_id": "599750fe82732549482f5df2",
                     "bossCounter": "Golem",
                     "__v": 0,
                     "bestMoves": {
@@ -846,7 +1181,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f779a",
+                    "_id": "599750fe82732549482f5def",
                     "bossCounter": "Dragonite",
                     "__v": 0,
                     "bestMoves": {
@@ -866,7 +1201,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f779e",
+                    "_id": "599750fe82732549482f5df3",
                     "bossCounter": "Gyarados",
                     "__v": 0,
                     "bestMoves": {
@@ -884,7 +1219,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f779b",
+                    "_id": "599750fe82732549482f5df0",
                     "bossCounter": "Tyranitar",
                     "__v": 0,
                     "bestMoves": {
@@ -901,7 +1236,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f779f",
+                    "_id": "599750fe82732549482f5df4",
                     "bossCounter": "Feraligatr",
                     "__v": 0,
                     "bestMoves": {
@@ -917,7 +1252,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f779c",
+                    "_id": "599750fe82732549482f5df1",
                     "bossCounter": "Rhydon",
                     "__v": 0,
                     "bestMoves": {
@@ -934,150 +1269,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77a0",
-                    "bossCounter": "Kingdra",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Hydro Pump"
-                        ],
-                        "quickMoves": [
-                            "Water Gun"
-                        ]
-                    },
-                    "types": [
-                        "Water"
-                    ]
-                }
-            ],
-            "types": [
-                "Fire"
-            ]
-        },
-        "__v": 0,
-        "location": {
-            "latitude": 20,
-            "longitude": 20
-        },
-        "messages": []
-    },
-    {
-        "_id": "598f14432774e24a804f77c3",
-        "__ttl": "2017-08-12T14:44:34.034Z",
-        "people": 0,
-        "boss": {
-            "_id": "598f14422774e24a804f77a1",
-            "dificulty": 3,
-            "boss": "Arcanine",
-            "__v": 0,
-            "counters": [
-                {
-                    "_id": "598f14422774e24a804f77a2",
-                    "bossCounter": "Vaporeon",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Hydro Pump",
-                            "Aqua Tail"
-                        ],
-                        "quickMoves": [
-                            "Water Gun"
-                        ]
-                    },
-                    "types": [
-                        "Water"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77a7",
-                    "bossCounter": "Golem",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Earthquake"
-                        ],
-                        "quickMoves": [
-                            "Mud Slap",
-                            "Mud Shot"
-                        ]
-                    },
-                    "types": [
-                        "Ground",
-                        "Rock"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77a4",
-                    "bossCounter": "Dragonite",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Outrage",
-                            "Hurricane",
-                            "Dragon Claw"
-                        ],
-                        "quickMoves": [
-                            "Dragon Tail",
-                            "Dragon Breath"
-                        ]
-                    },
-                    "types": [
-                        "Dragon",
-                        "Flying"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77a5",
-                    "bossCounter": "Tyranitar",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Stone Edge"
-                        ],
-                        "quickMoves": [
-                            "Bite"
-                        ]
-                    },
-                    "types": [
-                        "Dark",
-                        "Rock"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77a9",
-                    "bossCounter": "Kingdra",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Hydro Pump"
-                        ],
-                        "quickMoves": [
-                            "Water Gun"
-                        ]
-                    },
-                    "types": [
-                        "Water"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77a6",
-                    "bossCounter": "Rhydon",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Earthquake"
-                        ],
-                        "quickMoves": [
-                            "Mud Slap"
-                        ]
-                    },
-                    "types": [
-                        "Ground",
-                        "Rock"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77a3",
+                    "_id": "599750fe82732549482f5dee",
                     "bossCounter": "Omastar",
                     "__v": 0,
                     "bestMoves": {
@@ -1097,8 +1289,8 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77a8",
-                    "bossCounter": "Feraligatr",
+                    "_id": "599750fe82732549482f5df5",
+                    "bossCounter": "Kingdra",
                     "__v": 0,
                     "bestMoves": {
                         "chargeMoves": [
@@ -1122,37 +1314,325 @@
             "latitude": 20,
             "longitude": 20
         },
-        "messages": []
+        "messages": [
+            {
+                "_id": "599750fe82732549482f5e4e",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e43",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "cillum",
+                "message": "Consectetur voluptate minim Lorem nisi excepteur irure ullamco et sunt aliqua anim. Laborum dolor esse do incididunt laboris exercitation qui velit laboris in. Labore esse et ullamco dolor culpa nisi aliquip proident cupidatat esse in do.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e4d",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e44",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "minim",
+                "message": "Aute sint reprehenderit fugiat sunt minim esse do mollit velit. Cupidatat dolore commodo nulla qui sint voluptate nostrud proident adipisicing dolore et. Consequat est est ad in sint veniam irure magna sunt nisi aute. Enim enim ad enim dolor ex fugiat incididunt. Amet ad laborum veniam culpa esse enim tempor est ex amet. Mollit eiusmod dolor dolor veniam mollit id. Deserunt aliquip reprehenderit laboris pariatur est eu Lorem elit mollit cillum ipsum laboris dolore.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e4f",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "ipsum",
+                "message": "Ex magna mollit id ut est qui. Ex ut sint quis ut anim sit pariatur qui duis sint excepteur do cillum. Aute sit nulla nulla incididunt do sunt Lorem duis quis et pariatur irure labore. Lorem Lorem tempor aute ad ex deserunt.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e50",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "ea",
+                "message": "Enim ullamco reprehenderit deserunt magna occaecat commodo velit sunt nulla tempor et irure nulla. Fugiat fugiat aliqua eu sint irure ea velit. Consectetur veniam incididunt nisi eu eiusmod nostrud.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e54",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "ad",
+                "message": "Ullamco eu cupidatat duis duis duis quis elit ea proident esse do et duis et. Velit in voluptate duis occaecat ex excepteur ad tempor. Ullamco qui sint commodo ipsum ad id excepteur in ea deserunt Lorem id laborum cupidatat. Fugiat sunt quis fugiat reprehenderit incididunt in ipsum. Ea consequat duis anim tempor dolor velit.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e53",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e5f",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e55",
+                "raidId": "599750fe82732549482f5e17",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            }
+        ]
     },
     {
-        "_id": "598f14432774e24a804f77c4",
-        "__ttl": "2017-08-12T14:44:34.038Z",
-        "people": 0,
+        "_id": "599750fe82732549482f5e18",
+        "__ttl": "2017-08-18T22:41:35.081Z",
+        "people": 1,
         "boss": {
-            "_id": "598f14422774e24a804f77aa",
+            "_id": "599750fe82732549482f5df6",
+            "dificulty": 3,
+            "boss": "Arcanine",
+            "__v": 0,
+            "counters": [
+                {
+                    "_id": "599750fe82732549482f5df7",
+                    "bossCounter": "Vaporeon",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Hydro Pump",
+                            "Aqua Tail"
+                        ],
+                        "quickMoves": [
+                            "Water Gun"
+                        ]
+                    },
+                    "types": [
+                        "Water"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dfc",
+                    "bossCounter": "Golem",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Earthquake"
+                        ],
+                        "quickMoves": [
+                            "Mud Slap",
+                            "Mud Shot"
+                        ]
+                    },
+                    "types": [
+                        "Ground",
+                        "Rock"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5df8",
+                    "bossCounter": "Omastar",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Rock Slide",
+                            "Hydro Pump",
+                            "Rock Blast"
+                        ],
+                        "quickMoves": [
+                            "Rock Throw",
+                            "Water Gun"
+                        ]
+                    },
+                    "types": [
+                        "Water",
+                        "Rock"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dfd",
+                    "bossCounter": "Feraligatr",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Hydro Pump"
+                        ],
+                        "quickMoves": [
+                            "Water Gun"
+                        ]
+                    },
+                    "types": [
+                        "Water"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5df9",
+                    "bossCounter": "Dragonite",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Outrage",
+                            "Hurricane",
+                            "Dragon Claw"
+                        ],
+                        "quickMoves": [
+                            "Dragon Tail",
+                            "Dragon Breath"
+                        ]
+                    },
+                    "types": [
+                        "Dragon",
+                        "Flying"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dfa",
+                    "bossCounter": "Tyranitar",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Stone Edge"
+                        ],
+                        "quickMoves": [
+                            "Bite"
+                        ]
+                    },
+                    "types": [
+                        "Dark",
+                        "Rock"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dfe",
+                    "bossCounter": "Kingdra",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Hydro Pump"
+                        ],
+                        "quickMoves": [
+                            "Water Gun"
+                        ]
+                    },
+                    "types": [
+                        "Water"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5dfb",
+                    "bossCounter": "Rhydon",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Earthquake"
+                        ],
+                        "quickMoves": [
+                            "Mud Slap"
+                        ]
+                    },
+                    "types": [
+                        "Ground",
+                        "Rock"
+                    ]
+                }
+            ],
+            "types": [
+                "Fire"
+            ]
+        },
+        "__v": 0,
+        "location": {
+            "latitude": 20,
+            "longitude": 20
+        },
+        "messages": [
+            {
+                "_id": "599750fe82732549482f5e52",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "sunt",
+                "message": "Culpa anim duis esse cupidatat in ea adipisicing elit occaecat voluptate qui eiusmod pariatur mollit. Duis mollit mollit nisi exercitation veniam fugiat aliquip laborum cillum eiusmod aute ad nostrud dolore. Cupidatat occaecat ad velit id ex reprehenderit elit tempor nisi quis occaecat in nostrud eiusmod. Eiusmod commodo enim aliquip ad exercitation ipsum culpa anim anim do Lorem. Mollit adipisicing do laboris velit. Exercitation deserunt deserunt eiusmod dolore cillum irure aute cupidatat anim ad. Occaecat ullamco deserunt laborum nisi dolore sint culpa ullamco laboris consectetur eiusmod.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e60",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e67",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "sunt",
+                "message": "Culpa anim duis esse cupidatat in ea adipisicing elit occaecat voluptate qui eiusmod pariatur mollit. Duis mollit mollit nisi exercitation veniam fugiat aliquip laborum cillum eiusmod aute ad nostrud dolore. Cupidatat occaecat ad velit id ex reprehenderit elit tempor nisi quis occaecat in nostrud eiusmod. Eiusmod commodo enim aliquip ad exercitation ipsum culpa anim anim do Lorem. Mollit adipisicing do laboris velit. Exercitation deserunt deserunt eiusmod dolore cillum irure aute cupidatat anim ad. Occaecat ullamco deserunt laborum nisi dolore sint culpa ullamco laboris consectetur eiusmod.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e6b",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "cillum",
+                "message": "Consectetur voluptate minim Lorem nisi excepteur irure ullamco et sunt aliqua anim. Laborum dolor esse do incididunt laboris exercitation qui velit laboris in. Labore esse et ullamco dolor culpa nisi aliquip proident cupidatat esse in do.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e57",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "ea",
+                "message": "Enim ullamco reprehenderit deserunt magna occaecat commodo velit sunt nulla tempor et irure nulla. Fugiat fugiat aliqua eu sint irure ea velit. Consectetur veniam incididunt nisi eu eiusmod nostrud.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e61",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e45",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "sunt",
+                "message": "Culpa anim duis esse cupidatat in ea adipisicing elit occaecat voluptate qui eiusmod pariatur mollit. Duis mollit mollit nisi exercitation veniam fugiat aliquip laborum cillum eiusmod aute ad nostrud dolore. Cupidatat occaecat ad velit id ex reprehenderit elit tempor nisi quis occaecat in nostrud eiusmod. Eiusmod commodo enim aliquip ad exercitation ipsum culpa anim anim do Lorem. Mollit adipisicing do laboris velit. Exercitation deserunt deserunt eiusmod dolore cillum irure aute cupidatat anim ad. Occaecat ullamco deserunt laborum nisi dolore sint culpa ullamco laboris consectetur eiusmod.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750fe82732549482f5e51",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "cillum",
+                "message": "Consectetur voluptate minim Lorem nisi excepteur irure ullamco et sunt aliqua anim. Laborum dolor esse do incididunt laboris exercitation qui velit laboris in. Labore esse et ullamco dolor culpa nisi aliquip proident cupidatat esse in do.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e56",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "minim",
+                "message": "Aute sint reprehenderit fugiat sunt minim esse do mollit velit. Cupidatat dolore commodo nulla qui sint voluptate nostrud proident adipisicing dolore et. Consequat est est ad in sint veniam irure magna sunt nisi aute. Enim enim ad enim dolor ex fugiat incididunt. Amet ad laborum veniam culpa esse enim tempor est ex amet. Mollit eiusmod dolor dolor veniam mollit id. Deserunt aliquip reprehenderit laboris pariatur est eu Lorem elit mollit cillum ipsum laboris dolore.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e66",
+                "raidId": "599750fe82732549482f5e18",
+                "user": "ad",
+                "message": "Ullamco eu cupidatat duis duis duis quis elit ea proident esse do et duis et. Velit in voluptate duis occaecat ex excepteur ad tempor. Ullamco qui sint commodo ipsum ad id excepteur in ea deserunt Lorem id laborum cupidatat. Fugiat sunt quis fugiat reprehenderit incididunt in ipsum. Ea consequat duis anim tempor dolor velit.\r\n",
+                "__v": 0
+            }
+        ]
+    },
+    {
+        "_id": "599750fe82732549482f5e19",
+        "__ttl": "2017-08-18T22:41:35.082Z",
+        "people": 1,
+        "boss": {
+            "_id": "599750fe82732549482f5dff",
             "dificulty": 3,
             "boss": "Alakazam",
             "__v": 0,
             "counters": [
                 {
-                    "_id": "598f14422774e24a804f77ab",
-                    "bossCounter": "Scizor",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "X-Scissor"
-                        ],
-                        "quickMoves": [
-                            "Fury Cutter"
-                        ]
-                    },
-                    "types": [
-                        "Bug",
-                        "Steel"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77ac",
+                    "_id": "599750fe82732549482f5e01",
                     "bossCounter": "Pinsir",
                     "__v": 0,
                     "bestMoves": {
@@ -1169,7 +1649,42 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77ad",
+                    "_id": "599750fe82732549482f5e00",
+                    "bossCounter": "Scizor",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "X-Scissor"
+                        ],
+                        "quickMoves": [
+                            "Fury Cutter"
+                        ]
+                    },
+                    "types": [
+                        "Bug",
+                        "Steel"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5e05",
+                    "bossCounter": "Gyarados",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Crunch"
+                        ],
+                        "quickMoves": [
+                            "Bite",
+                            "Dragon Tail",
+                            "Dragon Breath"
+                        ]
+                    },
+                    "types": [
+                        "Water"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5e02",
                     "bossCounter": "Houndoom",
                     "__v": 0,
                     "bestMoves": {
@@ -1186,7 +1701,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77ae",
+                    "_id": "599750fe82732549482f5e03",
                     "bossCounter": "Dragonite",
                     "__v": 0,
                     "bestMoves": {
@@ -1206,25 +1721,24 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77b0",
-                    "bossCounter": "Gyarados",
+                    "_id": "599750fe82732549482f5e06",
+                    "bossCounter": "Snorlax",
                     "__v": 0,
                     "bestMoves": {
                         "chargeMoves": [
-                            "Crunch"
+                            "Hyper Beam",
+                            "Body Slam"
                         ],
                         "quickMoves": [
-                            "Bite",
-                            "Dragon Tail",
-                            "Dragon Breath"
+                            "Lick"
                         ]
                     },
                     "types": [
-                        "Water"
+                        "Normal"
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77af",
+                    "_id": "599750fe82732549482f5e04",
                     "bossCounter": "Tyranitar",
                     "__v": 0,
                     "bestMoves": {
@@ -1240,23 +1754,6 @@
                         "Dark",
                         "Rock"
                     ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77b1",
-                    "bossCounter": "Snorlax",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Hyper Beam",
-                            "Body Slam"
-                        ],
-                        "quickMoves": [
-                            "Lick"
-                        ]
-                    },
-                    "types": [
-                        "Normal"
-                    ]
                 }
             ],
             "types": [
@@ -1268,20 +1765,108 @@
             "latitude": 20,
             "longitude": 20
         },
-        "messages": []
+        "messages": [
+            {
+                "_id": "599750ff82732549482f5e68",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "minim",
+                "message": "Aute sint reprehenderit fugiat sunt minim esse do mollit velit. Cupidatat dolore commodo nulla qui sint voluptate nostrud proident adipisicing dolore et. Consequat est est ad in sint veniam irure magna sunt nisi aute. Enim enim ad enim dolor ex fugiat incididunt. Amet ad laborum veniam culpa esse enim tempor est ex amet. Mollit eiusmod dolor dolor veniam mollit id. Deserunt aliquip reprehenderit laboris pariatur est eu Lorem elit mollit cillum ipsum laboris dolore.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e72",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "ea",
+                "message": "Enim ullamco reprehenderit deserunt magna occaecat commodo velit sunt nulla tempor et irure nulla. Fugiat fugiat aliqua eu sint irure ea velit. Consectetur veniam incididunt nisi eu eiusmod nostrud.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e58",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e62",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "sunt",
+                "message": "Culpa anim duis esse cupidatat in ea adipisicing elit occaecat voluptate qui eiusmod pariatur mollit. Duis mollit mollit nisi exercitation veniam fugiat aliquip laborum cillum eiusmod aute ad nostrud dolore. Cupidatat occaecat ad velit id ex reprehenderit elit tempor nisi quis occaecat in nostrud eiusmod. Eiusmod commodo enim aliquip ad exercitation ipsum culpa anim anim do Lorem. Mollit adipisicing do laboris velit. Exercitation deserunt deserunt eiusmod dolore cillum irure aute cupidatat anim ad. Occaecat ullamco deserunt laborum nisi dolore sint culpa ullamco laboris consectetur eiusmod.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e6c",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e70",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e59",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "adipisicing",
+                "message": "Veniam sit ut deserunt aliquip officia enim nostrud consectetur cupidatat eu. Exercitation mollit qui exercitation proident ad adipisicing officia nisi. Deserunt magna ad magna in in quis ullamco ullamco quis ut qui magna.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e63",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "cillum",
+                "message": "Consectetur voluptate minim Lorem nisi excepteur irure ullamco et sunt aliqua anim. Laborum dolor esse do incididunt laboris exercitation qui velit laboris in. Labore esse et ullamco dolor culpa nisi aliquip proident cupidatat esse in do.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e6d",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "minim",
+                "message": "Aute sint reprehenderit fugiat sunt minim esse do mollit velit. Cupidatat dolore commodo nulla qui sint voluptate nostrud proident adipisicing dolore et. Consequat est est ad in sint veniam irure magna sunt nisi aute. Enim enim ad enim dolor ex fugiat incididunt. Amet ad laborum veniam culpa esse enim tempor est ex amet. Mollit eiusmod dolor dolor veniam mollit id. Deserunt aliquip reprehenderit laboris pariatur est eu Lorem elit mollit cillum ipsum laboris dolore.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e71",
+                "raidId": "599750fe82732549482f5e19",
+                "user": "cillum",
+                "message": "Consectetur voluptate minim Lorem nisi excepteur irure ullamco et sunt aliqua anim. Laborum dolor esse do incididunt laboris exercitation qui velit laboris in. Labore esse et ullamco dolor culpa nisi aliquip proident cupidatat esse in do.\r\n",
+                "__v": 0
+            }
+        ]
     },
     {
-        "_id": "598f14432774e24a804f77c5",
-        "__ttl": "2017-08-12T14:44:34.042Z",
-        "people": 0,
+        "_id": "599750fe82732549482f5e1a",
+        "__ttl": "2017-08-18T22:41:35.085Z",
+        "people": 1,
         "boss": {
-            "_id": "598f14422774e24a804f77b2",
+            "_id": "599750fe82732549482f5e07",
             "dificulty": 3,
             "boss": "Machamp",
             "__v": 0,
             "counters": [
                 {
-                    "_id": "598f14422774e24a804f77b3",
+                    "_id": "599750fe82732549482f5e09",
+                    "bossCounter": "Alakazam",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Future Sight"
+                        ],
+                        "quickMoves": [
+                            "Confusion",
+                            "Psycho Cut"
+                        ]
+                    },
+                    "types": [
+                        "Psychc"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5e08",
                     "bossCounter": "Lugia",
                     "__v": 0,
                     "bestMoves": {
@@ -1299,7 +1884,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77b8",
+                    "_id": "599750fe82732549482f5e0d",
                     "bossCounter": "Charizard",
                     "__v": 0,
                     "bestMoves": {
@@ -1318,41 +1903,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77b4",
-                    "bossCounter": "Alakazam",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Future Sight"
-                        ],
-                        "quickMoves": [
-                            "Confusion",
-                            "Psycho Cut"
-                        ]
-                    },
-                    "types": [
-                        "Psychc"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77bc",
-                    "bossCounter": "Slowking",
-                    "__v": 0,
-                    "bestMoves": {
-                        "chargeMoves": [
-                            "Psychic"
-                        ],
-                        "quickMoves": [
-                            "Confusion"
-                        ]
-                    },
-                    "types": [
-                        "Psychc",
-                        "Water"
-                    ]
-                },
-                {
-                    "_id": "598f14422774e24a804f77b5",
+                    "_id": "599750fe82732549482f5e0a",
                     "bossCounter": "Espeon",
                     "__v": 0,
                     "bestMoves": {
@@ -1369,8 +1920,8 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77bb",
-                    "bossCounter": "Slowbro",
+                    "_id": "599750fe82732549482f5e11",
+                    "bossCounter": "Slowking",
                     "__v": 0,
                     "bestMoves": {
                         "chargeMoves": [
@@ -1386,7 +1937,7 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77b6",
+                    "_id": "599750fe82732549482f5e0b",
                     "bossCounter": "Dragonite",
                     "__v": 0,
                     "bestMoves": {
@@ -1404,26 +1955,24 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77ba",
-                    "bossCounter": "Gengar",
+                    "_id": "599750fe82732549482f5e10",
+                    "bossCounter": "Slowbro",
                     "__v": 0,
                     "bestMoves": {
                         "chargeMoves": [
-                            "Shadow Ball",
-                            "Sludge Bomb"
+                            "Psychic"
                         ],
                         "quickMoves": [
-                            "Shadow Claw",
-                            "Hex"
+                            "Confusion"
                         ]
                     },
                     "types": [
-                        "Ghost",
-                        "Poison"
+                        "Psychc",
+                        "Water"
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77b7",
+                    "_id": "599750fe82732549482f5e0c",
                     "bossCounter": "Exeggutor",
                     "__v": 0,
                     "bestMoves": {
@@ -1442,7 +1991,26 @@
                     ]
                 },
                 {
-                    "_id": "598f14422774e24a804f77b9",
+                    "_id": "599750fe82732549482f5e0f",
+                    "bossCounter": "Gengar",
+                    "__v": 0,
+                    "bestMoves": {
+                        "chargeMoves": [
+                            "Shadow Ball",
+                            "Sludge Bomb"
+                        ],
+                        "quickMoves": [
+                            "Shadow Claw",
+                            "Hex"
+                        ]
+                    },
+                    "types": [
+                        "Ghost",
+                        "Poison"
+                    ]
+                },
+                {
+                    "_id": "599750fe82732549482f5e0e",
                     "bossCounter": "Gyarados",
                     "__v": 0,
                     "bestMoves": {
@@ -1469,6 +2037,77 @@
             "latitude": 20,
             "longitude": 20
         },
-        "messages": []
+        "messages": [
+            {
+                "_id": "599750ff82732549482f5e5b",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e65",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "sunt",
+                "message": "Culpa anim duis esse cupidatat in ea adipisicing elit occaecat voluptate qui eiusmod pariatur mollit. Duis mollit mollit nisi exercitation veniam fugiat aliquip laborum cillum eiusmod aute ad nostrud dolore. Cupidatat occaecat ad velit id ex reprehenderit elit tempor nisi quis occaecat in nostrud eiusmod. Eiusmod commodo enim aliquip ad exercitation ipsum culpa anim anim do Lorem. Mollit adipisicing do laboris velit. Exercitation deserunt deserunt eiusmod dolore cillum irure aute cupidatat anim ad. Occaecat ullamco deserunt laborum nisi dolore sint culpa ullamco laboris consectetur eiusmod.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e6f",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e74",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "esse",
+                "message": "Anim est enim occaecat aute ipsum fugiat. Esse aliqua elit voluptate consectetur ut ad velit incididunt adipisicing deserunt mollit enim aliqua. Ex excepteur dolore ad ex ipsum ipsum non eiusmod nisi. Ad culpa dolor reprehenderit laboris ipsum.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e5a",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "voluptate",
+                "message": "Laborum pariatur duis deserunt sunt veniam sint magna excepteur sit. Tempor magna fugiat et reprehenderit deserunt incididunt. Excepteur duis voluptate do aliquip ea est officia in id nostrud pariatur proident. Eiusmod aliqua ullamco sint incididunt occaecat magna sunt. Amet pariatur consectetur fugiat laboris irure quis officia ipsum elit. Non sunt occaecat laboris eu nisi. Consectetur excepteur officia voluptate Lorem culpa velit cupidatat et anim.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e64",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "minim",
+                "message": "Aute sint reprehenderit fugiat sunt minim esse do mollit velit. Cupidatat dolore commodo nulla qui sint voluptate nostrud proident adipisicing dolore et. Consequat est est ad in sint veniam irure magna sunt nisi aute. Enim enim ad enim dolor ex fugiat incididunt. Amet ad laborum veniam culpa esse enim tempor est ex amet. Mollit eiusmod dolor dolor veniam mollit id. Deserunt aliquip reprehenderit laboris pariatur est eu Lorem elit mollit cillum ipsum laboris dolore.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e6e",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "ea",
+                "message": "Enim ullamco reprehenderit deserunt magna occaecat commodo velit sunt nulla tempor et irure nulla. Fugiat fugiat aliqua eu sint irure ea velit. Consectetur veniam incididunt nisi eu eiusmod nostrud.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e73",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e69",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "ipsum",
+                "message": "Ex magna mollit id ut est qui. Ex ut sint quis ut anim sit pariatur qui duis sint excepteur do cillum. Aute sit nulla nulla incididunt do sunt Lorem duis quis et pariatur irure labore. Lorem Lorem tempor aute ad ex deserunt.\r\n",
+                "__v": 0
+            },
+            {
+                "_id": "599750ff82732549482f5e6a",
+                "raidId": "599750fe82732549482f5e1a",
+                "user": "et",
+                "message": "Fugiat ad ut incididunt id deserunt non ea ullamco ipsum. Anim quis veniam dolore exercitation amet nostrud velit enim proident occaecat. Aliqua ullamco consequat velit sint cupidatat commodo officia. Exercitation sit amet cillum pariatur et deserunt velit officia ea nulla.\r\n",
+                "__v": 0
+            }
+        ]
     }
 ]

@@ -16,6 +16,6 @@ RaidSchema.pre('remove', function(next) {
   this.model('Message').remove({ raidId: this._id }, next);
 });
 // change to 7200000 2h
-RaidSchema.plugin(ttl, { ttl: 15000, reap: false});
+RaidSchema.plugin(ttl, { ttl: 7200000, reap: false});
 
 module.exports = mongoose.model('Raid', RaidSchema);

@@ -3,7 +3,7 @@ var Schema       = mongoose.Schema;
 
 var BossSchema   = new Schema({
     boss: String,
-    dificulty: Number,
+    difficulty: Number,
     types: [String],
     counters: [{type: Schema.ObjectId, ref: "BossCounter"}]
 });

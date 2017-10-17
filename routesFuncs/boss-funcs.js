@@ -13,10 +13,10 @@ module.exports.newBoss = function newBoss(obj, cb) {
   else
     missingProps.push('boss');
 
-  if (obj.dificulty)
-    boss.dificulty = obj.dificulty;
+  if (obj.difficulty)
+    boss.difficulty = obj.difficulty;
   else
-    missingProps.push('dificulty')
+    missingProps.push('difficulty')
 
   if (obj.types)
     boss.types = obj.types;

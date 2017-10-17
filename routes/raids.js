@@ -6,6 +6,7 @@ var getRaidById = funcs.getRaidById;
 var updateRaid = funcs.updateRaid;
 var removeRaid = funcs.removeRaid;
 var addMessageToRaid = funcs.addMessageToRaid;
+var addUserToRaid = funcs.addUserToRaid;
 
 module.exports = function(router) {
 
@@ -15,11 +16,11 @@ module.exports = function(router) {
       if (err)
         return res.send({message: err});
 
-      res.json({message: 'Raid created!', storeId: result.raidId})
+      res.json({message: 'Raid created!', raidId: result.raidId})
     });
   })
   .get(function(req, res) {
-    getRaidList(function(err, result) {
+    getRaidList(req.query.difficulty,function(err, result) {
       if (err)
         return res.json({message: err});
 
@@ -59,6 +60,15 @@ module.exports = function(router) {
       if (err)
         return res.json({message: err});
       res.json({message: 'Message successfully added'});
+    });
+  });
+
+  router.route('/raids/:raid_id/user')
+  .put(function(req, res) {
+    addUserToRaid(req.params.raid_id, function(err) {
+      if (err)
+        return res.json({message: err});
+      res.json({message: 'User successfully added'});
     });
   });
 }

@@ -36,9 +36,19 @@ module.exports.newRaid = function newRaid(obj, cb) {
   });
 };
 
-module.exports.getRaidList = function getRaidList(cb) {
+module.exports.getRaidList = function getRaidList(difficulty, cb) {
+  console.log('difficulty', difficulty);
+  var properties = [{key: 'one', value: 1}, {key: 'two', value: 2}, {key: 'three', value: 3}, {key: 'four', value: 4}, {key: 'five', value: 5}];
+  var filter;
+  for (var prop in properties) {
+    if (properties.hasOwnProperty(prop)) {
+      if (properties[prop].key === difficulty)
+        filter = properties[prop].value;
+    }
+  }
+  console.log('filter', filter);
   var populateQuery = [{path: 'messages'}, {path:'boss', populate: {path: 'counters'}}];
-  Raid.find()
+  Raid.find({'boss.difficulty': filter})
   .populate(populateQuery)
   .exec(function(err, raids) {
     if (err)
@@ -93,10 +103,11 @@ module.exports.addMessageToRaid = function addMessageToRaid(rid, obj, cb) {
           return cb(err);
         Raid.update(
           {_id: rid},
-          {$push: {messages: newMessage.id}},
+          {$push: {messages: newMessage._id}},
           {safe: true, upsert: true, new: true},
           function (err, raidToUpdate) {
             //here send notification to all users subscribed to this raid
+            //addUserToRaid(rid);
             cb(null, raidToUpdate);
           }
         )

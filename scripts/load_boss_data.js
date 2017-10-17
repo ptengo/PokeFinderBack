@@ -31,7 +31,7 @@ prc.on('close', function(){*/
       json: true,
       body: {
         boss: aBoss.boss,
-        dificulty: aBoss.dificulty,
+        difficulty: aBoss.difficulty,
         types: aBoss.types,
         counters: aBoss.counters,
       }
